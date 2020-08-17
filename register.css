@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(backpic.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+.registerbox{
+	width:325px;
+	height:500px;
+	background:#000;
+	color:white;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:20px 30px;
+}
+h1{
+	margin:0;
+	padding:20px;
+	text-align:center;
+	font-size:22px;
+}
+.registerbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.registerbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.registerbox input[type="text"],input[type="password"],input[type="e-mail"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.registerbox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color: #fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.registerbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.registerbox a
+{
+	text-decoration:none;
+	font-size:12px;
+	line-length:20px;
+	color:darkgrey;
+}
+.registerbox a:hover
+{
+	color:#ffc107;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
